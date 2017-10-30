@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplicationLinq
 {
-
     public class Juego
     {
         public int Id { get; set; }
@@ -21,10 +20,7 @@ namespace ConsoleApplicationLinq
         public string Nombre { get; set; }
         public DateTime FechaCreacion { get; set; }
     }
-
-       
-
-
+     
     class Program
     {
         static void Main(string[] args)
@@ -40,7 +36,6 @@ namespace ConsoleApplicationLinq
             IEnumerable<JuegoMultitudinario> resultado1 = ConsultarJuegosMultitudinarios();
             foreach (JuegoMultitudinario j in resultado1)
                 Console.WriteLine(String.Format("{0} ({1}). Creado el {2}.", j.Nombre, j.Id, j.FechaCreacion));
-
 
             Console.ReadLine();
         }
@@ -71,6 +66,5 @@ namespace ConsoleApplicationLinq
                                                         select new JuegoMultitudinario { Id = j.Id, Nombre = j.Nombre, FechaCreacion = DateTime.Now };
             return consulta;
         }
-
     }
 }
