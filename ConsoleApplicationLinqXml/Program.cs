@@ -19,6 +19,7 @@ namespace ConsoleApplicationLinqXml
 
         static void Main(string[] args)
         {
+
         }
     }
 }
