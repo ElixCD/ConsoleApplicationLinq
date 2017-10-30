@@ -12,7 +12,7 @@ namespace ConsoleApplicationXML
         static void Main(string[] args)
         {
             Console.Write(GenerarXML());
-            Console.ReadLine();
+            Console.Read();
         }
 
         public static string GenerarXML()
