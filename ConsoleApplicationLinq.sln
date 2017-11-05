@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLinqXml",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationXML", "ConsoleApplicationXML\ConsoleApplicationXML.csproj", "{BB5D1A37-A907-4AC4-95FD-132A584AF10A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationRecorrerXML", "ConsoleApplicationRecorrerXML\ConsoleApplicationRecorrerXML.csproj", "{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BB5D1A37-A907-4AC4-95FD-132A584AF10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5D1A37-A907-4AC4-95FD-132A584AF10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5D1A37-A907-4AC4-95FD-132A584AF10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
