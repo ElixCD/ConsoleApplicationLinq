@@ -39,7 +39,34 @@ namespace ConsoleApplicationRecorrerXML
             int numMetodos = (from metodo in docXML.Elements("Juego").Elements("MethodMember").Descendants()
                               where metodo.Name == "Method"
                               select metodo).Count();
-                              
+
+            // Itermaos sobre TODOS los descendientes del documento.
+            // En él, seleccionamos todos aquellos nodos cuyo nombre sea "Property"
+            // Sobre ese nodo, creamos un listado  con todos sus atributos (nombre y valor)
+            var atributosPropiedades = (from nodo in docXML.Descendants()
+                                        where nodo.Name == "Property"
+                                        select new{
+                                            NombreNodo = nodo.Name,
+                                            Atributos = (from atributo in nodo.Attributes()
+                                                         select new
+                                                         {
+                                                             Nombre = atributo.Name,
+                                                             Valor = atributo.Value
+                                                         })
+                                            }
+                                        );
+
+            Console.WriteLine(String.Format("La clase posee un total de {0} metodos.", numMetodos));
+
+            foreach (var nodo in atributosPropiedades)
+            {
+                Console.WriteLine(string.Format("\nELEMENTO: {0}", nodo.NombreNodo));
+                foreach(var atributo in nodo.Atributos)
+                {
+                    Console.WriteLine(string.Format("\tNombre: {0} \tValor: {1}", atributo.Nombre, atributo.Valor));
+                }
+            }
+            Console.ReadKey();
         }
     }
 
