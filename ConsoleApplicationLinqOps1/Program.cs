@@ -56,7 +56,6 @@ namespace ConsoleApplicationLinqOps1
 
             Console.WriteLine("\n================= MULTISELECCION ==================");
 
-
             Console.ReadKey();
         }
     }
