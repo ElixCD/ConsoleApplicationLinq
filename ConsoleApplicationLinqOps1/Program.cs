@@ -5,14 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace ConsoleApplicationLinqOps1
 {
     class Program
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("================= TIPO ANONIMO ==================");
             // Declaramos (y cumplimentamos) el tipo anónimo
             var tipoAnonimo = new { PropiedadEntera = 1, PropiedadCadena = "cadena" };
