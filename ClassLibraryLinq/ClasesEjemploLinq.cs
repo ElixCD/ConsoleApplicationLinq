@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplicationLinqOps1
+
+namespace ClassLibraryLinq
 {
+    public class ClasesEjemploLinq
+    {
+    }
+
     public class Cliente
     {
         public int Id { get; set; }
@@ -108,9 +110,8 @@ namespace ConsoleApplicationLinqOps1
 
         // Propiedades de los elementos privados
         public static List<Cliente> ListaClientes { get { return _listaClientes; } }
-        public static List<Producto> ListaProductos { get { return _listaProductos; } } 
+        public static List<Producto> ListaProductos { get { return _listaProductos; } }
         public static List<Pedido> ListaPedidos { get { return _listaPedidos; } }
         public static List<LineaPedido> ListaLineaPedido { get { return _listaLineasPedido; } }
     }
-
 }

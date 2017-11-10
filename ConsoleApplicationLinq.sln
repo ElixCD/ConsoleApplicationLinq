@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationRecorrerX
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLinqOps1", "ConsoleApplicationLinqOps1\ConsoleApplicationLinqOps1.csproj", "{41D5D7E0-4904-4057-8458-12D378F626A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryLinq", "ClassLibraryLinq\ClassLibraryLinq.csproj", "{1CF68898-2D76-4465-859B-2B576FD26908}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{41D5D7E0-4904-4057-8458-12D378F626A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41D5D7E0-4904-4057-8458-12D378F626A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41D5D7E0-4904-4057-8458-12D378F626A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF68898-2D76-4465-859B-2B576FD26908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF68898-2D76-4465-859B-2B576FD26908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF68898-2D76-4465-859B-2B576FD26908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF68898-2D76-4465-859B-2B576FD26908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,11 @@
-﻿using ConsoleApplicationLinqOps1;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+
+using ClassLibraryLinq;
 
 namespace ConsoleApplicationLinqOps1
 {
@@ -52,7 +54,8 @@ namespace ConsoleApplicationLinqOps1
             foreach (var articulo in productosDeMasDeSieteEuros)
                 Console.WriteLine(String.Format("{0} {1} {2}", articulo.Id, articulo.Descripcion, articulo.Precio));
 
-            Console.WriteLine("\n================= MULTISELECCION ==================");
+            Console.WriteLine("\n================= SELECT VARIOS OBJETOS ==================");
+
 
             Console.ReadKey();
         }
