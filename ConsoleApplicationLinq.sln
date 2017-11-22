@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationXML", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationRecorrerXML", "ConsoleApplicationRecorrerXML\ConsoleApplicationRecorrerXML.csproj", "{B166842F-1FCD-4FF7-AA31-C9FDBE1F7B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLinqOps1", "ConsoleApplicationLinqOps1\ConsoleApplicationLinqOps1.csproj", "{41D5D7E0-4904-4057-8458-12D378F626A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLinqSelecciones", "ConsoleApplicationLinqOps1\ConsoleApplicationLinqSelecciones.csproj", "{41D5D7E0-4904-4057-8458-12D378F626A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryLinq", "ClassLibraryLinq\ClassLibraryLinq.csproj", "{1CF68898-2D76-4465-859B-2B576FD26908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLinqAgrupaciones", "ConsoleApplicationLinqAgrupaciones\ConsoleApplicationLinqAgrupaciones.csproj", "{19D1DAA4-E5FF-4F71-B3A0-EB51226D9606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1CF68898-2D76-4465-859B-2B576FD26908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF68898-2D76-4465-859B-2B576FD26908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF68898-2D76-4465-859B-2B576FD26908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D1DAA4-E5FF-4F71-B3A0-EB51226D9606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D1DAA4-E5FF-4F71-B3A0-EB51226D9606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D1DAA4-E5FF-4F71-B3A0-EB51226D9606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D1DAA4-E5FF-4F71-B3A0-EB51226D9606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
