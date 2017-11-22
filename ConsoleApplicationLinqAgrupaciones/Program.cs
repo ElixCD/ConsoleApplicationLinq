@@ -97,7 +97,7 @@ namespace ConsoleApplicationLinqAgrupaciones
                             } into lineasPorPedido
                             select lineasPorPedido;
 
-            consulta = from 
+            //consulta = from 
 
 
             Console.ReadKey();
