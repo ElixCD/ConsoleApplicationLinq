@@ -1,3 +1,2 @@
 # ConsoleApplicationLinq
-
-Ejemplos de utilización de Linq
+Ejemplos de utilización de Linq en consola
